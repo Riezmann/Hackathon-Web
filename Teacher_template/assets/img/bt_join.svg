@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Bt join</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A" transform="translate(-1065.000000, -28.000000)">
+            <g id="TOP-BAR-ELEMENTS" transform="translate(23.000000, 25.000000)">
+                <g id="Bt-join" transform="translate(1042.000000, 3.000000)">
+                    <path d="M12,0 C5.38285714,0 0,5.38285714 0,12 C0,18.6171429 5.38285714,24 12,24 C18.6171429,24 24,18.6171429 24,12 C24,5.38285714 18.6171429,0 12,0" id="Fill-1" fill="#00A8FF"></path>
+                    <path d="M16.1994857,12.5903143 L10.7934857,17.9963143 C10.4686286,18.3211714 9.93977143,18.3211714 9.61491429,17.9963143 C9.29005714,17.6714571 9.29005714,17.1426 9.61491429,16.8177429 L14.4346286,11.9988857 L9.61491429,7.18088571 C9.29005714,6.85774286 9.29005714,6.32717143 9.61491429,6.00231429 C9.93977143,5.67917143 10.4686286,5.67917143 10.7934857,6.00231429 L16.1994857,11.4066 C16.3632,11.5703143 16.4429143,11.7837429 16.4429143,11.9988857 C16.4429143,12.2140286 16.3632,12.4266 16.1994857,12.5903143" id="Fill-3" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

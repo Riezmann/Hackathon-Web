@@ -1,0 +1,515 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+/* Common */
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow: hidden;
+}
+
+.col {
+    float:left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-3 {
+    width: calc(100%/3);
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.clear {
+    clear:both;
+}
+
+.text-white {
+    color: #fff !important; 
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+
+/* Begin:Header */
+#header{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+}
+
+#nav li a {
+    display: block;
+    line-height: 46px;
+    text-decoration: none;
+    padding: 0 24px;
+    font-size: 22px;
+}
+
+#nav > li > a {
+    text-transform: uppercase;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav li .subnav {
+    display: none;
+    min-width: 160px; 
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#nav .subnav a {
+    color: black;
+    padding: 0 12px;
+    line-height: 38px;
+    font-size: 16px;;
+}
+
+#nav .nav-arrow-down {
+    font-size: 12px;
+}
+
+#header .search-bar {
+    float: right;
+    top: 0;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+#header .search-bar .nav-search-icon {
+    line-height: 22px;
+}
+
+#header .search-bar:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+/* End:Header */
+
+/* Begin: Slider */
+#slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(../img/slider/slider1.jpg) 
+    center top / contain no-repeat;
+}
+
+#slider .image-description {
+    position:absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    color:#fff;
+    padding: 32px 16px;
+    line-height: 1.5;
+}
+
+#slider .image-description .place {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+#slider .image-description .description {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+/* End: Slider */
+
+/* Begin:Content */
+
+#content .content-section {
+    padding: 64px 16px 112px 16px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#content .content-section .section-heading {
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#content .content-section .section-subheading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    opacity: 0.60;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#content .content-section .about-content {
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: Lato,sans-serif;
+}
+
+#content .member-list {
+    margin-top: 32px;
+}
+
+#content .member-item {
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 60%;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+    display: block;
+    
+}
+
+/* Begin: Tour Section */
+.tour-section {
+    background-color: #000;
+}
+
+/* Begin: Ticket */
+.ticket-list {
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.ticket-list li {
+    font-size: 15px;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    color: #757575;
+    list-style-type: none;
+}
+
+.ticket-list .sold-out {
+    margin-left: 16px;
+    font-size: 15px;
+    padding: 2px 8px;
+    background-color: #f44336;
+}
+
+.ticket-list .quantity {
+    float:right;
+    font-size: 15px;
+    margin-right: 16px;
+    background-color: #000;
+    border-radius: 50%;
+    width: 22px;
+    text-align: center;
+}
+/* End: Ticket */
+
+/* Begin:Tour Places */
+
+.places-list{
+    margin-top: 32px;
+}
+
+
+.place-img{
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-body{
+    background-color: #fff;
+    color: #000;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.place-heading{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.place-time{
+    margin-top:15px;    
+    color: #757575;
+}
+
+.place-desc{
+    margin: 15px 0px;
+}
+
+.place-buy-btn{
+    width: 110px;
+    padding:8px 16px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+
+.place-buy-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+/* Begin:Modal */
+.modal.open {
+    display: flex;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal .modal-container {
+    background-color: #fff;
+    width: 900px;
+    max-width: calc(100%-32px);
+    min-height: 200px;
+    animation: modalFadeIn ease 0.3s;
+}
+
+.modal-container .modal-header {
+    background-color: #009688;
+    padding: 32px 16px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+}
+
+.modal .modal-close {
+    float:right;
+    padding: 8px 16px;
+    font-size: 24px !important;
+    color: white;
+}
+
+.modal .modal-close:hover {
+    background-color: #ccc;
+    color:#000;
+}
+
+.modal .modal-body {
+    padding: 0.15px 15px;
+    
+}
+
+.modal .modal-label {
+    margin: 15px 0px;
+    display: block;
+}
+
+.modal .modal-input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.modal .modal-body #buy-tickets {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 16px;
+    background-color: #009688;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    border: 0;
+}
+
+.modal .modal-body #buy-tickets:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal .modal-footer {
+    text-align: right;
+    margin: 15px 15px 33px 0px;
+    font-size: 15px;
+    right: -15px;
+}
+
+.modal .modal-footer a {
+    color:#2196F3;
+}
+
+@keyframes modalFadeIn {
+    from {
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+/* End:Modal */
+/* End:Tour Places */ 
+/* End:Tour Section */
+
+/* Begin:Contact */
+.contact-content {
+    margin-top: 48px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.contact-icon {
+    width: 30px;
+    text-align: left;
+    display: inline-block;
+    line-height: 22px !important;
+}
+
+.contact-content .form-control {
+    width: 100%;
+    display: block;
+    margin: 0px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.contact-content .submit-btn {
+    float:right;
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+}
+
+.contact-content .submit-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.contact-content .row {
+    padding-bottom: 8px;
+}
+/* End:Contact */
+.map-section img {
+    width: 100%;
+}
+
+/* End:Content  */
+
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.socials-list a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+}
+
+.socials-list a:hover {
+    opacity: 0.4;
+}
+
+.copyright {
+    margin-top: 15px;
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+}
+
+.copyright a {
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+}

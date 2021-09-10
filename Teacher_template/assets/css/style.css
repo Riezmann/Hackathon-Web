@@ -1,0 +1,774 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: avenirRoman;
+  src: url(/Teacher_template/assets/fonts/AvenirRomanFontDownload.otf);
+}
+
+.no-margin-left {
+  margin-left: 0px !important;
+}
+
+section {
+  padding: 90px 0;
+}
+
+#main {
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: rgb(220, 235, 255);
+}
+
+.nav-bar .logo-container {
+  height: 100%;
+}
+
+.nav-bar .logo-container a {
+  display: block;
+  background-image: url(/Teacher_template/assets/img/nearpod_logo.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  line-height: 1;
+  width: 150px;
+  background-size: 100%;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.nav-bar .signIn-signUp-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-bar .signIn-signUp-container .navbar-btn {
+  margin: 0 10px;
+  padding: 10px 26px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 13px;
+  font-family: avenirRoman;
+}
+
+.nav-bar .signIn-signUp-container #topBar-request {
+  background-color: #4a7af6;
+}
+
+.nav-bar .signIn-signUp-container #signUp-btn {
+  background-color: #4e9f6f;
+}
+
+.nav-bar .signIn-signUp-container #logIn-btn {
+  color: #4e9f6f;
+  padding: 10px 5px;
+}
+
+.nav-bar .signIn-signUp-container #menu-btn {
+  margin: 0 10px 0 8px;
+  font-size: 20px;
+}
+
+#main-content {
+}
+
+/* Begin: Hero section  */
+
+#main-content .hero-section {
+  width: 100%;
+  height: 714px;
+  background: url(/Teacher_template/assets/img/hero_background.png) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-content .hero-section .mask {
+  width: 1024px;
+}
+
+.hero-section .mask .wrapper {
+  width: 100%;
+  max-width: 1024px;
+  font-family: avenirRoman;
+}
+
+.hero-section .wrapper .hero-title {
+  margin: 0 0 10px 8px;
+  color: #215c89;
+  max-width: 470px;
+  font-size: 46px;
+}
+
+.hero-section .wrapper .hero-subtitle {
+  max-width: 575px;
+  margin-left: 6px;
+  margin-bottom: 5px;
+  padding: 10px 0;
+  font-weight: 100;
+  color: #215c89;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.hero-section .wrapper .display-boxes {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.hero-section .wrapper .display-box {
+  margin: 0 10px;
+  border-radius: 20px;
+  color: white;
+  height: 168px;
+  width: 30%;
+  max-width: 190px;
+  min-width: 225px;
+  box-shadow: 0 9px 9px rgb(0 0 0 / 16%);
+}
+
+.hero-section .wrapper #student {
+  background-color: #ea4e4e;
+}
+
+.hero-section .wrapper #teacher {
+  background-color: #68d493;
+}
+
+.hero-section .wrapper #admin {
+  background-color: #4a7af6;
+}
+
+.hero-section .display-box .box-title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hero-section .display-box #box-desc {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.hero-section .display-box .join-form {
+  display: flex;
+  margin: 10px auto 0 auto;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  height: 24%;
+  background-color: #fff;
+  border: 1px solid #cdd3d7;
+  border-radius: 8px;
+}
+
+.hero-section .display-box input {
+  width: 100%;
+  max-width: 70%;
+  border: none;
+  padding: 7px 1px 7px 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.hero-section .display-box button {
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+  background: url(/Teacher_template/assets/img/bt_join.svg) center center
+    no-repeat;
+  border: none;
+}
+
+.hero-section .display-box .box-activity {
+  margin: 18px auto auto auto;
+  text-align: center;
+  max-width: 170px;
+}
+
+.display-box#teacher .outside-link {
+  background-color: #4e9f6f;
+}
+
+.display-box#admin .outside-link {
+  background-color: #365bb8;
+}
+
+.outside-link {
+  display: block;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 12px -11px rgb(0 0 0 / 75%);
+}
+.display-box .box-activity > p {
+  margin-top: 20px;
+}
+
+.display-box .box-activity .alternatives {
+  color: #fff;
+}
+
+/* End: Hero section  */
+
+#main-content .wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Begin: Teacher section */
+
+#main-content .teacher-section {
+  padding: 90px 0;
+}
+
+.wrapper .title-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.wrapper .title-section h2 {
+  font-family: avenirRoman;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 100;
+}
+
+.wrapper .title-section .underline-text {
+  width: 31%;
+  position: relative;
+  left: 433px;
+}
+
+.teacher-section .wrapper .subtitle-section {
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  line-height: 34px;
+  margin: auto auto 20px auto;
+  font-family: avenirRoman;
+  color: #353f46;
+  font-weight: 100;
+}
+
+/* End: Teacher Section */
+
+/* Begin Visualize Section  */
+
+.visualize-section {
+  padding: 90px 0;
+}
+
+.visualize-section .title-section {
+  margin-bottom: 30px;
+}
+
+.visualize-section .title-section .underline-text {
+  width: 33%;
+  position: relative;
+  left: 355px;
+  top: -5px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-container .image-container {
+  width: 48%;
+}
+
+.item-container ul {
+  width: 55%;
+  list-style-type: none;
+}
+
+.item-container ul > li {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.item-container .icon {
+  width: 8px;
+  height: 8px;
+  background-color: #00a8ff;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.item-container .text {
+  width: 90%;
+  color: #5b6d79;
+  font-family: avenirRoman;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 15px;
+  display: block;
+  font-weight: 100;
+}
+
+/* End Visualize Section */
+
+/* Begin: Quote-section */
+section.quote-section {
+  background-color: #b4e5fd;
+  padding: 50px 0;
+}
+
+.quote-section .wrapper .quote {
+  font-family: avenirRoman;
+  font-weight: 100;
+  margin-bottom: 20px;
+  text-align: left;
+  font-style: italic;
+  color: #203c80;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.quote-section .wrapper .author {
+  font-family: avenirRoman;
+  text-align: right;
+  color: #203c80;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+/* End: Quote-section */
+
+/* Begin: Ways to teach section  */
+
+.ways-to-teach-section {
+  background-color: #fafafa;
+}
+
+.ways-to-teach-section .title-section img {
+  width: 22%;
+  position: relative;
+  left: 245px;
+}
+
+.wrapper .way-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.way-container .way-desc .subtitle {
+  font-family: avenirRoman;
+  margin-bottom: 15px;
+  margin-right: 10%;
+  color: #353f46;
+  font-weight: 100;
+}
+
+.way-container .way-desc .text {
+  font-family: avenirRoman;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  color: #5b6d79;
+}
+
+.way-container:last-child {
+  margin-bottom: 0;
+}
+
+/* End: Ways to teach section  */
+
+/* Begin: Flex Mode Section */
+
+.flex-mode .title-section img {
+  width: 7%;
+}
+
+.flex-mode .flex-desc {
+  display: flex;
+  align-items: center;
+}
+
+.flex-desc .desc .text {
+  color: #5b6d79;
+  margin: 0 0 35px 10%;
+  font-family: avenirRoman;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+.flex-desc .desc .text:last-child {
+  margin-bottom: 0;
+}
+
+/* End: Flex Mode Section  */
+
+/* Begin: Logo section */
+
+.logo-section {
+  background-color: #fafafa;
+}
+
+.logo-section .title-section img {
+  width: 24%;
+  position: relative;
+  left: 729px;
+}
+
+.logo-section .img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-section .img-container .logo {
+  width: 25%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  max-height: 85px;
+}
+
+/* End: Logo Section */
+
+/* Begin: Connection Section  */
+
+.connections .title-section img {
+  width: 17%;
+  position: relative;
+  left: 104px;
+  top: -6px;
+}
+
+.connections .wrapper h2 {
+  margin-top: 30px;
+  font-family: avenirRoman;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.connections .wrapper h2 > a {
+  color: #00a8ff;
+}
+
+.connections .wrapper h2 > span {
+  color: #00a8ff;
+}
+
+/* End: Connection Section  */
+
+/* Begin: Slider section */
+.slider-section .title-section img {
+  position: relative;
+  width: 17%;
+  left: 203px;
+  top: -52px;
+}
+
+.slider-section .slide-wrapper {
+  height: 345px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 100%;
+}
+
+.slider-section .slide-desc {
+  width: 95%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-section .slide-desc .slide-visualize {
+  flex: 1;
+  height: auto;
+  overflow: hidden;
+  margin: 30px 30px 30px 45px;
+}
+.slider-section .slide-desc .slide-visualize img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-section .slide-desc .desc {
+  font-family: avenirRoman;
+  height: 90%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  margin: 30px 45px 30px 30px;
+}
+
+.slide-desc .desc h3 {
+  color: #353f46;
+  width: 100%;
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-family: avenirRoman;
+  line-height: 34px;
+}
+
+.slide-desc .text {
+  color: #353f46;
+  font-family: avenirRoman;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* End: Slider section */
+
+/* Begin: Instructional section  */
+.instructional-section {
+  background-color: #fafafa;
+}
+
+.instructional-section .title-section h2 {
+  line-height: 52px;
+}
+
+.instructional-section .title-section img {
+  position: relative;
+  width: 37%;
+  left: 179px;
+  top: -60px;
+}
+
+.instructional-section .item-container ul {
+  width: 50%;
+}
+
+.instructional-section .item-container ul span {
+  color: #00a8ff;
+  font-weight: 600;
+}
+
+.instructional-section .link-container {
+  margin-top: 30px;
+}
+
+.instructional-section .link-container a {
+  display: flex;
+  height: 46px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #00a8ff;
+  background-color: #00a8ff;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: avenirRoman;
+  text-decoration: none;
+}
+
+.instructional-section .item-container {
+  width: 100%;
+}
+
+.instructional-section .image-container {
+  width: 50%;
+}
+
+.instructional-section .image-container img {
+  width: 100%;
+}
+
+/* End: Instructional section */
+
+/* Begin: Number Section */
+
+.number-section {
+  padding: 50px 0;
+  background-color: #3a62be;
+}
+
+.number-section .title-section h2 {
+  line-height: 52px;
+  color: #fff;
+}
+
+.number-section .title-section img {
+  width: 17%;
+  position: relative;
+  top: -57px;
+  left: 494px;
+}
+
+/* End: Number Section */
+
+/* Begin: Role-section  */
+
+.role-section {
+  background-color: #fafafa;
+}
+
+.role-section .roles {
+  display: flex;
+  font-family: avenirRoman;
+}
+
+.role-section .title-section {
+  margin-bottom: 30px;
+}
+
+.role-section .wrapper .role {
+  flex: 1;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.role-section .role h3 {
+  font-size: 25px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  color: #353f46;
+}
+
+.role-section .role p {
+  color: #5b6d79;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.roles .box-activity .outside-link {
+  max-width: 184px;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.role#teacher .box-activity .outside-link {
+  background-color: #4e9f6f;
+}
+
+.role#admin .box-activity .outside-link {
+  background-color: #4a7af6;
+}
+
+/* End: Role-section */
+.footer {
+    border-top: 1px solid #ccc;
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.footer .wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer .wrapper .list-item {
+    width: 243px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-family: avenirRoman;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.footer .wrapper .list-header {
+    color:#00a8ff; 
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.footer .wrapper .item-link {
+    color:#8b9195;
+    text-decoration: none;
+}
+
+.footer .footer--divider {
+    width: 100%;
+    border-top: 2px solid #979797;
+    margin: 30px 0 0 0;
+}
+
+.footer-brand {
+    padding-top: 30px;
+    background-color: #fbfcfd;
+}
+
+.footer .footer-brand img {
+    width: 168px;
+}
+
+.footer .footer-brand .legal-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    position: relative;
+}
+
+.footer .legal-list .list-item {
+    margin-bottom: 0;
+    display: list-item;
+    width: auto;
+}
+
+.footer .footer-brand a {
+    color: #00a8ff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.footer .legal-list::after {
+    height: 100%;
+    width: 1px;
+    background-color: #00a8ffff;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -60px;
+    left: 0;
+    margin: auto;
+}
+
+
+
+
+
