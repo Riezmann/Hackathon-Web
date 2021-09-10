@@ -40,7 +40,7 @@ section {
 
 .nav-bar .logo-container a {
   display: block;
-  background-image: url(/assets/img/nearpod_logo.svg);
+  background-image: url(Teacher_template/assets/img/nearpod_logo.svg);
   background-position: left;
   background-repeat: no-repeat;
   line-height: 1;
