@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: avenirRoman;
-  src: url(../fonts/AvenirRomanFontDownload.otf);
+  src: url(./fonts/AvenirRomanFontDownload.otf);
 }
 
 .no-margin-left {
@@ -40,7 +40,7 @@ section {
 
 .nav-bar .logo-container a {
   display: block;
-  background-image: url(../img/nearpod_logo.svg);
+  background-image: url(./img/nearpod_logo.svg);
   background-position: left;
   background-repeat: no-repeat;
   line-height: 1;
